@@ -1,0 +1,29 @@
+idea:
+  title: LLMs are bad at keeping obvious secrets
+  domain: nlp
+  hypothesis: 'Large language models tend to reveal or foreshadow information they
+    "know" in generated text, such as fiction, because their planning and prose generation
+    are entangled. This leads to excessive hinting at future events. The research
+    question is whether this tendency persists when the model is conditioned on an
+    explicit plan, allowing it to set up future events without needing to foreshadow
+    them implicitly.
+
+    '
+  background:
+    description: "LLMs are bad at keeping obvious secrets. For instance, when LLMs\
+      \ write fiction they foreshadow plot way too much because planning and prose\
+      \ generation are entangled\u2014the model can't help but hint at what it knows\
+      \ is coming the way it's doing implicitly in its hidden states. I think this\
+      \ is one of the reasons many of the \"scheming\" results have felt underwhelming\
+      \ and artificial. The model wants to say what it's thinking, without being told\
+      \ it has to. Is this still true when it can rely on a plan it's conditioning\
+      \ on that sets up the future so it doesn't have to constantly get ready for\
+      \ that future on its own?"
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/IiwUQTntauUfrIaJvWES
+    idea_id: llms_are_bad_at_keeping_obviou_20260104_173728_556756e7
+    created_at: '2026-01-04T17:37:28.093193'
+    status: submitted
+    github_repo_name: llms-keep-secrets-codex
+    github_repo_url: https://github.com/Hypogenic-AI/llms-keep-secrets-codex
