@@ -1,0 +1,68 @@
+[
+  {
+    "condition": "plan_conditioned",
+    "n": 40,
+    "leakage_mean": 1.125,
+    "leakage_std": 0.8825226081218281,
+    "leakage_ci": [
+      0.85,
+      1.4
+    ],
+    "coherence_mean": 5.0,
+    "coherence_std": 0.0,
+    "coherence_ci": [
+      5.0,
+      5.0
+    ],
+    "adherence_mean": 1.0,
+    "adherence_std": 0.0,
+    "adherence_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "condition": "plan_structured",
+    "n": 40,
+    "leakage_mean": 1.1,
+    "leakage_std": 0.8101914936669333,
+    "leakage_ci": [
+      0.85,
+      1.35
+    ],
+    "coherence_mean": 5.0,
+    "coherence_std": 0.0,
+    "coherence_ci": [
+      5.0,
+      5.0
+    ],
+    "adherence_mean": 1.0,
+    "adherence_std": 0.0,
+    "adherence_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "condition": "prompt_only",
+    "n": 40,
+    "leakage_mean": 1.1,
+    "leakage_std": 0.8412444993533733,
+    "leakage_ci": [
+      0.85,
+      1.375
+    ],
+    "coherence_mean": 4.9,
+    "coherence_std": 0.30382181012509996,
+    "coherence_ci": [
+      4.8,
+      4.975
+    ],
+    "adherence_mean": 0.58875,
+    "adherence_std": 0.32962439774650115,
+    "adherence_ci": [
+      0.4875,
+      0.6962812499999999
+    ]
+  }
+]

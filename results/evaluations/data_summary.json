@@ -1,0 +1,10 @@
+{
+  "rocstories": {
+    "rows": 78528,
+    "missing_text": 0
+  },
+  "writingprompts_sample": {
+    "rows": 2726,
+    "missing_prompt_or_story": 0
+  }
+}

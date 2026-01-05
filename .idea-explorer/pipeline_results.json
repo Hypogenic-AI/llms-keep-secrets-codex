@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/logs/resource_finder_codex.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/logs/resource_finder_codex_transcript.jsonl",
+      "elapsed_time": 466.3414297103882
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1310.67933511734,
+      "log_file": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/logs/execution_codex.log",
+      "transcript_file": "/data/hypogenicai/workspaces/llms-keep-secrets-codex/logs/execution_codex_transcript.jsonl"
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/llms-keep-secrets-codex"
+}

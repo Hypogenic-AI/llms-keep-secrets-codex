@@ -1,0 +1,29 @@
+[
+  {
+    "metric": "leakage_score",
+    "condition_a": "prompt_only",
+    "condition_b": "plan_conditioned",
+    "n": 40,
+    "stat": 98.0,
+    "p_value": 0.7828363127145511,
+    "cohens_d": -0.026399362895041904
+  },
+  {
+    "metric": "leakage_score",
+    "condition_a": "prompt_only",
+    "condition_b": "plan_structured",
+    "n": 40,
+    "stat": 101.5,
+    "p_value": 0.8925400541700075,
+    "cohens_d": 0.0
+  },
+  {
+    "metric": "leakage_score",
+    "condition_a": "plan_conditioned",
+    "condition_b": "plan_structured",
+    "n": 40,
+    "stat": 25.0,
+    "p_value": 0.7815112949987133,
+    "cohens_d": 0.043342965422583736
+  }
+]
